@@ -1,12 +1,11 @@
 🚀 FinFlow – Interactive Finance Dashboard
 FinFlow is a modern, responsive finance management interface built to help users track spending patterns, visualize balance trends, and manage transactions with a focus on Role-Based Access Control (RBAC).
 
-[Live Demo Link] | [GitHub Repository]
-
+🔗 Live Demo | 📁 GitHub Repository
 🛠️ Tech Stack
 Framework: React.js (Vite)
 
-Styling: Tailwind CSS (Modern Bento Grid UI)
+Styling: Tailwind CSS (Bento Grid & Glassmorphism)
 
 Animations: Framer Motion
 
@@ -15,6 +14,8 @@ Charts: Recharts (Area & Pie Charts)
 Icons: Lucide-React
 
 State Management: React Hooks (useState, useMemo, useEffect)
+
+Deployment: Netlify
 
 ✨ Key Features
 
@@ -49,13 +50,13 @@ Modular Components: Separated the Sidebar, Stat Cards, and Modals into reusable 
 
 Performance: Utilized useMemo for heavy data derivations (totals and chart formatting) to minimize unnecessary re-renders.
 
-Security-First UX: Implemented a double-layer of protection where features are hidden visually for Viewers and blocked logically at the function level.
+Security-First UX: Implemented a double-layer of protection where features are hidden visually for Viewers and blocked logically at the code level.
 
 🚀 Getting Started
 Clone the repo:
 
 Bash
-git clone https://github.com/mukeshkumarcoder/finflow-dashboard.git
+git clone https://github.com/MukeshKumarCoder/finflow-dashboard.git
 Install dependencies:
 
 Bash
